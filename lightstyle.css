@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body {
+    background-color: white;
+    margin: 0px;
+    align-items: center;
+}
+
+header {
+    background-color: white;
+    height: 60px;
+    width: 100%;
+    margin: 0px;
+}
+
+h1,h2,p {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    color: #373737;
+}
+
+#logo {
+    height: 45px;
+    width: 45px;
+    margin: 8px 15px;
+}
+
+#menu {
+    display: block;
+    width: 100%;
+    margin: 0px;
+}
+
+#menu li {
+    color: #373737;
+	display: block;
+	margin: 15px 25px 10px 15px;
+	padding: 5px;
+	width: auto;
+	height: auto;
+	list-style: none;
+    position: relative;
+	float: right;
+}
+
+a {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #373737;
+  text-decoration: none;
+}
+
+}
+
+.conteiner {
+    background-color: whitesmoke;
+}
+
+#text {
+    font-family: 'Ubuntu', sans-serif;
+    margin:0px 0px 40px 0px;
+    color: white;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+
+.center-left {
+    position: absolute;
+    top: 45%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+
+.center-top {
+    position: absolute;
+    top: 15%;
+    left: 50.5%;
+    transform: translate(-50%, -50%);
+}
+
+.container2 {
+    display: flex;
+    text-align: center;
+}
+
+#content {
+    margin: 40px 0px 0px 0px;
+    width: 33.3%;
+}
+
+#wiki_b {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 15px;
+    color: #373737;
+    background: white;
+    border-radius: 10px;
+    width: 85px;
+    height: 40px;
+    margin: 40px 10px;
+    padding: 10px; 
+}
+
+#request_b {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 15px;
+    color: #373737;
+    background-color: white;
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+    margin: 5px;
+    padding: 10px; 
+}
+#possibilities {
+    width: 100%;
+    height: 100px;
+    margin-top: -5px;
+    padding-top: 25px;
+    align-content: center;
+    text-align: center;
+}
+
+#possibilities h1 {
+    font-family: 'Ubuntu', sans-serif;
+    color: #373737; 
+}
+
+#possibilities_cont {
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+
+#map {
+    width: 50%;
+}
+
+#map img {
+    border-radius: 35px;
+    height: 350px;
+}
+
+#map_button {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 20px;
+    color: #ff692a;
+    background-color: white;
+    width: 120px;
+    height: 40px;
+    margin-top: 15px;
+}
+
+#voice {
+    width: 50%;
+}
+
+#voice_button {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 20px;
+    color: #ff692a;
+    width: 120px;
+    height: 40px;
+    margin-top: 15px;
+}
