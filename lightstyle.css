@@ -2,14 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
 body {
-    background-color: white;
+    background-color: #f7f7f7;
     margin: 0px;
     align-items: center;
+    max-width: 100%;
 }
 
 header {
     background-color: white;
-    height: 60px;
     width: 100%;
     margin: 0px;
 }
@@ -94,6 +94,10 @@ a {
     width: 33.3%;
 }
 
+#content-img {
+    height: 85%;
+}
+
 #wiki_b {
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-size: 15px;
@@ -143,14 +147,14 @@ a {
 
 #map img {
     border-radius: 35px;
-    height: 350px;
+    height: 300px;
+    width: 630px;
 }
 
 #map_button {
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-size: 20px;
     color: #ff692a;
-    background-color: white;
     width: 120px;
     height: 40px;
     margin-top: 15px;
@@ -167,4 +171,24 @@ a {
     width: 120px;
     height: 40px;
     margin-top: 15px;
+}
+
+#voice img {
+    border-radius: 35px;
+    height: 350px;
+    width: 50%;
+}
+
+main {
+    height: 1800px;
+}
+
+footer {
+    display: flex;
+    padding: 10px;
+    background-color: white;
+}
+
+footer a{
+    margin: 10px 0px 10px 30px;
 }
