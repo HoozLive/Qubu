@@ -39,7 +39,7 @@ h1,h2,p {
 #menu li {
     color: #373737;
 	display: block;
-	margin: 15px 25px 10px 15px;
+	margin: 18px; 25px 0px 15px;
 	padding: 5px;
 	width: auto;
 	height: auto;
@@ -68,19 +68,24 @@ a {
     color: white;
 }
 
-.container {
+.cont {
     position: relative;
     text-align: center;
     color: white;
 }
 
-
 .center-left {
     position: absolute;
-    top: 45%;
+    top: 50%;
     left: 20%;
     transform: translate(-50%, -50%);
+    
 }
+
+.center-left img {
+    width: 40%;
+    margin-bottom: 20px;
+    }
 
 .center-top {
     position: absolute;
@@ -99,6 +104,10 @@ a {
     width: 33.3%;
 }
 
+#content-text {
+    height: 25%;
+}
+
 #content-img {
     height: auto;
 }
@@ -109,8 +118,8 @@ a {
     color: #373737;
     background: white;
     border-radius: 10px;
-    width: 85px;
-    height: 40px;
+    width: auto;
+    height: auto;
     margin: 40px 10px;
     padding: 10px; 
 }
@@ -121,18 +130,19 @@ a {
     color: #373737;
     background-color: white;
     border-radius: 10px;
-    width: 120px;
-    height: 40px;
+    width: auto;
+    height: auto;
     margin: 5px;
     padding: 10px; 
 }
 #possibilities {
     width: 100%;
+    height: auto;
     margin-top: -5px;
+    margin-bottom: 20px;
     padding-top: 25px;
     align-content: center;
     text-align: center;
-    margin-bottom: 15px;
 }
 
 #possibilities h1 {
@@ -159,8 +169,8 @@ a {
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-size: 20px;
     color: #ff692a;
-    width: 120px;
-    height: 40px;
+    width: auto;
+    height: auto;
     margin-top: 15px;
 }
 
@@ -172,8 +182,8 @@ a {
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-size: 20px;
     color: #ff692a;
-    width: 120px;
-    height: 40px;
+    width: auto;
+    height: auto;
     margin-top: 15px;
 }
 
@@ -192,4 +202,42 @@ footer {
 
 footer a{
     margin: 10px 0px 10px 30px;
+}
+
+
+
+@media (max-width: 1500px) {
+    .container {
+        width: auto;
+    }
+}
+
+@media (max-width: 1200px) {
+    .container {
+        width: auto;
+    }
+}
+
+@media (max-width: 1199px) {
+    .container {
+        width: auto;
+    }
+}
+
+@media (max-width: 991px) {
+    .container {
+        width: auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        width: auto;
+    }
+}
+
+@media (max-width: 575px) {
+    .container {
+        width: auto;
+    }
 }
